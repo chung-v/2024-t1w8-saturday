@@ -32,5 +32,20 @@ Note: Great idea to organise your directory structure for maintenance and easy a
 
 ### Parameterized tests
 - Might want to test the same function with multiple inputs.
-- Parameterize creates different test cases for all the inputs provided.
+- parametrize creates different test cases for all the inputs provided.
 - Make sure you initialise the packages to use them in other folders.
+
+### Fixtures
+- Arrange and prepare data before running tests.
+- Reusable code.
+- Fixture Scopes: function, class, module, package, session (when to destroy the fixture)
+
+# File Handling
+- Read and write data from and to files.
+- Before performing any operation, its important to open the file, and close when you're done.
+- Operations:
+    - Open
+    - Read
+    - Write
+    - Close (Why close? Ensures buffers are flushed and resources are freed.)
+- 'with' statement: Automatically closes file when you are done.
