@@ -49,3 +49,7 @@ Note: Great idea to organise your directory structure for maintenance and easy a
     - Write
     - Close (Why close? Ensures buffers are flushed and resources are freed.)
 - 'with' statement: Automatically closes file when you are done.
+
+## Different file types
+- CSV file
+- JSON file
